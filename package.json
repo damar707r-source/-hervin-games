@@ -1,14 +1,15 @@
 {
   "name": "hervin-games",
-  "version": "1.0.0",
-  "description": "HERVIN Games - Roulette and Mafia Discord bot",
+  "version": "2.0.0",
+  "description": "HERVIN Games - Mafia and Roulette",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
+    "@napi-rs/canvas": "^0.1.68",
     "discord.js": "^14.22.1",
-    "@napi-rs/canvas": "^0.1.68"
+    "gifencoder": "^2.0.1"
   },
   "engines": {
     "node": ">=20"
